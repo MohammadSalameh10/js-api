@@ -1,8 +1,12 @@
 @import './base.css';
 
+.products {
+    padding: 50px 0;
+}
+
 .products .row {
-justify-content: stretch;
-gap: 10px;
+    justify-content: stretch;
+    gap: 10px;
 }
 
 .product {
@@ -10,5 +14,4 @@ gap: 10px;
     box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 20px;
-
 }

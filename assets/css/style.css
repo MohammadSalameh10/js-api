@@ -1,22 +1,24 @@
 @import './base.css';
 
 .category,
-.product {
+.products .product {
   background-color: #fff;
-  box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.1);
   width: 25%;
   margin: 10px;
   text-align: center;
   padding: 20px;
 }
 
-.category a{
+.category a {
   color: #333;
-  text-decoration: underline;
+  text-decoration: underline
 }
-.products{
-    padding: 50px 0;
+
+.products {
+  padding: 60px 0;
 }
-.products h2{
-    text-align: center;
+
+.products h2 {
+  text-align: center;
 }
