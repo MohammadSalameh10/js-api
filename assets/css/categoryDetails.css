@@ -1,0 +1,14 @@
+@import './base.css';
+
+.products .row {
+justify-content: stretch;
+gap: 10px;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+
+}
